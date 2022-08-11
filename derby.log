@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Thu Aug 11 13:06:27 ADT 2022:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.15.2.0 - (1873585): instance a816c00e-0182-8da8-33ba-00000f64a7e0 
+on database directory C:\Users\User\IdeaProjects\IVChecker\lib\pokedex with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@3764951d 
+Loaded from file:/C:/Users/User/IdeaProjects/DBTest/lib/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=15+36-1562
+user.dir=C:\Users\User\IdeaProjects\DBTest
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
