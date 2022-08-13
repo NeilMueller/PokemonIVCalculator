@@ -1,0 +1,94 @@
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<GridPane fx:controller="Controller"
+          xmlns:fx="http://javafx.com/fxml" alignment="center" hgap="10" vgap="10">
+    <Button fx:id="calculateBtn" text="Calculate" onAction="#calculate" GridPane.rowIndex="18" GridPane.columnIndex="0"/>
+
+    <Label fx:id="pokemonIDlbl" text="Pokemon ID: " GridPane.rowIndex="0" GridPane.columnIndex="0" GridPane.columnSpan="1"></Label>
+    <TextField fx:id="pokemonIDTF" GridPane.columnIndex="1" GridPane.rowIndex="0"
+               GridPane.columnSpan="1"> </TextField>
+    <Label fx:id="pokemonNamelbl" text="Pokemon Name: " GridPane.rowIndex="1" GridPane.columnIndex="0" GridPane.columnSpan="1"></Label>
+    <TextField fx:id="pokemonNameTF" GridPane.columnIndex="1" GridPane.rowIndex="1"
+               GridPane.columnSpan="1"> </TextField>
+
+    <Label fx:id="pokemonNaturelbl" text="Pokemon Nature: " GridPane.rowIndex="2" GridPane.columnIndex="0" GridPane.columnSpan="1"></Label>
+    <TextField fx:id="pokemonNatureTF" GridPane.columnIndex="1" GridPane.rowIndex="2"
+               GridPane.columnSpan="1"> </TextField>
+
+    <Label fx:id="pokemonLvllbl" text="Pokemon level: " GridPane.rowIndex="0" GridPane.columnIndex="2" GridPane.columnSpan="1"></Label>
+    <TextField fx:id="pokemonlvlTF" text="50" GridPane.columnIndex="3" GridPane.rowIndex="0"
+               GridPane.columnSpan="1"> </TextField>
+
+    <Label fx:id="idealStatlbl" text="Ideal Stat: " GridPane.rowIndex="1" GridPane.columnIndex="2" GridPane.columnSpan="1"></Label>
+    <Label fx:id="idealStatout" GridPane.rowIndex="1" GridPane.columnIndex="3" GridPane.columnSpan="1"></Label>
+
+    <Label fx:id="worseStatlbl" text="Worse Stat: " GridPane.rowIndex="2" GridPane.columnIndex="2" GridPane.columnSpan="1"></Label>
+    <Label fx:id="worseStatout" GridPane.rowIndex="2" GridPane.columnIndex="3" GridPane.columnSpan="1"></Label>
+
+    <Label fx:id="ivlbl" text="IVs" GridPane.columnIndex="0" GridPane.rowIndex="3" GridPane.columnSpan="2"></Label>
+    <Label fx:id="evlbl" text="EVs" GridPane.columnIndex="2" GridPane.rowIndex="3" GridPane.columnSpan="2"></Label>
+
+    <Label fx:id="hpIVlbl" text="Hp" GridPane.rowIndex="4" GridPane.columnIndex="0" GridPane.columnSpan="1"></Label>
+    <TextField fx:id="hpIVTF" text = "15" GridPane.rowIndex="5" GridPane.columnIndex="0" GridPane.columnSpan="1"></TextField>
+
+    <Label fx:id="atkIVlbl" text="Atk" GridPane.rowIndex="4" GridPane.columnIndex="1" GridPane.columnSpan="1"></Label>
+    <TextField fx:id="atkIVTF" text = "15" GridPane.rowIndex="5" GridPane.columnIndex="1" GridPane.columnSpan="1"></TextField>
+
+    <Label fx:id="hpEVlbl" text="HP" GridPane.rowIndex="4"  GridPane.columnIndex="2" GridPane.columnSpan="1"></Label>
+    <TextField fx:id="hpEVTF" text="0" GridPane.rowIndex="5" GridPane.columnIndex="2" GridPane.columnSpan="1"></TextField>
+
+    <Label fx:id="atkEVlbl" text="Atk" GridPane.rowIndex="4"  GridPane.columnIndex="3" GridPane.columnSpan="1"></Label>
+    <TextField fx:id="atkEVTF" text="0" GridPane.rowIndex="5" GridPane.columnIndex="3" GridPane.columnSpan="1"></TextField>
+
+    <Label fx:id="defIVlbl" text="Def" GridPane.rowIndex="6" GridPane.columnIndex="0" GridPane.columnSpan="1"></Label>
+    <TextField fx:id="defIVTF" text = "15"  GridPane.rowIndex="7" GridPane.columnIndex="0" GridPane.columnSpan="1"></TextField>
+
+    <Label fx:id="spAtkIVlbl" text="spAtk" GridPane.rowIndex="6" GridPane.columnIndex="1" GridPane.columnSpan="1"></Label>
+    <TextField fx:id="spAtkIVTF" text = "15"  GridPane.rowIndex="7" GridPane.columnIndex="1" GridPane.columnSpan="1"></TextField>
+
+    <Label fx:id="defEVlbl" text="Def" GridPane.rowIndex="6" GridPane.columnIndex="2" GridPane.columnSpan="1"></Label>
+    <TextField fx:id="defEVTF" text="0" GridPane.rowIndex="7" GridPane.columnIndex="2" GridPane.columnSpan="1"></TextField>
+
+    <Label fx:id="spAtkEVlbl" text="spAtk" GridPane.rowIndex="6" GridPane.columnIndex="3" GridPane.columnSpan="1"></Label>
+    <TextField fx:id="spAtkEVTF" text="0" GridPane.rowIndex="7" GridPane.columnIndex="3" GridPane.columnSpan="1"></TextField>
+
+    <Label fx:id="spDefIVlbl" text="spDef" GridPane.rowIndex="8" GridPane.columnIndex="0" GridPane.columnSpan="1"></Label>
+    <TextField fx:id="spDefIVTF" text = "15"  GridPane.rowIndex="9" GridPane.columnIndex="0" GridPane.columnSpan="1"></TextField>
+
+    <Label fx:id="spdIVlbl" text="Spd" GridPane.rowIndex="8" GridPane.columnIndex="1" GridPane.columnSpan="1"></Label>
+    <TextField fx:id="spdIVTF" text = "15"  GridPane.rowIndex="9" GridPane.columnIndex="1" GridPane.columnSpan="1"></TextField>
+
+    <Label fx:id="spDefEVlbl" text="spDef" GridPane.rowIndex="8" GridPane.columnIndex="2" GridPane.columnSpan="1"></Label>
+    <TextField fx:id="spDefEVTF" text="0" GridPane.rowIndex="9" GridPane.columnIndex="2" GridPane.columnSpan="1"></TextField>
+
+    <Label fx:id="spdEVlbl" text="Spd" GridPane.rowIndex="8" GridPane.columnIndex="3" GridPane.columnSpan="1"></Label>
+    <TextField fx:id="spdEVTF" text="0" GridPane.rowIndex="9" GridPane.columnIndex="3" GridPane.columnSpan="1"></TextField>
+
+    <Label fx:id="stats" text="Stats" GridPane.rowIndex="10" GridPane.columnIndex="0" GridPane.columnSpan="1"></Label>
+
+    <Label fx:id="hpStatlbl" text="Hp" GridPane.rowIndex="11" GridPane.columnIndex="0" GridPane.columnSpan="1"></Label>
+    <Label fx:id="hpStatOut" GridPane.rowIndex="12" GridPane.columnIndex="0" GridPane.columnSpan="1"></Label>
+
+    <Label fx:id="atkStatlbl" text="Atk" GridPane.rowIndex="11" GridPane.columnIndex="1" GridPane.columnSpan="1"></Label>
+    <Label fx:id="atkStatOut" GridPane.rowIndex="12" GridPane.columnIndex="1" GridPane.columnSpan="1"></Label>
+
+    <Label fx:id="defStatlbl" text="Def" GridPane.rowIndex="13" GridPane.columnIndex="0" GridPane.columnSpan="1"></Label>
+    <Label fx:id="defStatOut" GridPane.rowIndex="14" GridPane.columnIndex="0" GridPane.columnSpan="1"></Label>
+
+    <Label fx:id="spAtkStatlbl" text="spAtk" GridPane.rowIndex="13" GridPane.columnIndex="1" GridPane.columnSpan="1"></Label>
+    <Label fx:id="spAtkStatOut" GridPane.rowIndex="14" GridPane.columnIndex="1" GridPane.columnSpan="1"></Label>
+
+    <Label fx:id="spDefStatlbl" text="spDef" GridPane.rowIndex="15" GridPane.columnIndex="0" GridPane.columnSpan="1"></Label>
+    <Label fx:id="spDefStatOut" GridPane.rowIndex="16" GridPane.columnIndex="0" GridPane.columnSpan="1"></Label>
+
+    <Label fx:id="spdStatlbl" text="Spd" GridPane.rowIndex="15" GridPane.columnIndex="1" GridPane.columnSpan="1"></Label>
+    <Label fx:id="spdStatOut" GridPane.rowIndex="16" GridPane.columnIndex="1" GridPane.columnSpan="1"></Label>
+
+    <Label fx:id="oddlbl" text="Probability of Nature and IV: " GridPane.rowIndex="17" GridPane.columnIndex="0" GridPane.columnSpan="1"></Label>
+    <Label fx:id="oddOut" GridPane.rowIndex="17" GridPane.columnIndex="1" GridPane.columnSpan="1"></Label>
+
+</GridPane>

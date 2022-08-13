@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/DBTest.iml" filepath="$PROJECT_DIR$/DBTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PokemonIVCalculator.iml" filepath="$PROJECT_DIR$/PokemonIVCalculator.iml" />
     </modules>
   </component>
 </project>
